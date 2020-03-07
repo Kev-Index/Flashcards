@@ -15,6 +15,7 @@
 		BE45192F23F8695A006459C2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BE45192D23F8695A006459C2 /* LaunchScreen.storyboard */; };
 		BE45193A23F8695A006459C2 /* FlashcardsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE45193923F8695A006459C2 /* FlashcardsTests.swift */; };
 		BE45194523F8695A006459C2 /* FlashcardsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE45194423F8695A006459C2 /* FlashcardsUITests.swift */; };
+		BEEE4932240AE6C100AB2B26 /* CreationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEEE4931240AE6C100AB2B26 /* CreationViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		BE45194023F8695A006459C2 /* FlashcardsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FlashcardsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BE45194423F8695A006459C2 /* FlashcardsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlashcardsUITests.swift; sourceTree = "<group>"; };
 		BE45194623F8695A006459C2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BEEE4931240AE6C100AB2B26 /* CreationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreationViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,7 @@
 				BE45192423F86954006459C2 /* SceneDelegate.swift */,
 				BE45192623F86954006459C2 /* ViewController.swift */,
 				BE45192823F86954006459C2 /* Main.storyboard */,
+				BEEE4931240AE6C100AB2B26 /* CreationViewController.swift */,
 				BE45192B23F8695A006459C2 /* Assets.xcassets */,
 				BE45192D23F8695A006459C2 /* LaunchScreen.storyboard */,
 				BE45193023F8695A006459C2 /* Info.plist */,
@@ -262,6 +265,7 @@
 				BE45192723F86954006459C2 /* ViewController.swift in Sources */,
 				BE45192323F86954006459C2 /* AppDelegate.swift in Sources */,
 				BE45192523F86954006459C2 /* SceneDelegate.swift in Sources */,
+				BEEE4932240AE6C100AB2B26 /* CreationViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
