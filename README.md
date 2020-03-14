@@ -1,5 +1,24 @@
 ## Flashcards
 
+## Lab 3
+
+### App Description
+A flashcard app that allows users to add multiple flashcards which are saved in their disk for future use.
+
+### App Walk-though
+
+<img src="http://g.recordit.co/J71TZuM1Ui.gif" width=200><br>
+
+## Required
+- [x] User can browse through multiple flashcards
+- [x] User can re-open the app and see previously created flashcards
+- [x] Push code to GitHub
+## Optional
+- [ ] User can delete a flashcard
+- [ ] User can edit existing flashcard
+- [ ] User can store multiple choice questions
+
+
 ## Lab 2
 
 ### App Description
@@ -19,10 +38,11 @@ A flashcard app that allows the user to replace the current flashcard with a dif
 - [ ] User can edit existing flashcard
 - [ ] User can add multiple choice answers in the creation screen
 
+
 ## Lab 1
 
 ### App Description
-A flashcard app that alternates between a question and an answer
+A flashcard app that alternates between a question and an answer.
 
 ### App Walk-though
 
