@@ -104,10 +104,10 @@
 				BE45192223F86954006459C2 /* AppDelegate.swift */,
 				BE45192423F86954006459C2 /* SceneDelegate.swift */,
 				BE45192623F86954006459C2 /* ViewController.swift */,
+				BE45192D23F8695A006459C2 /* LaunchScreen.storyboard */,
 				BE45192823F86954006459C2 /* Main.storyboard */,
 				BEEE4931240AE6C100AB2B26 /* CreationViewController.swift */,
 				BE45192B23F8695A006459C2 /* Assets.xcassets */,
-				BE45192D23F8695A006459C2 /* LaunchScreen.storyboard */,
 				BE45193023F8695A006459C2 /* Info.plist */,
 			);
 			path = Flashcards;

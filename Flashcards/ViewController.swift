@@ -21,6 +21,7 @@ class ViewController: UIViewController {
     @IBOutlet weak var frontLabel: UILabel!
     @IBOutlet weak var prevButton: UIButton!
     @IBOutlet weak var nextButton: UIButton!
+    @IBOutlet weak var card: UIView!
     
     //Array to hold our flashcards
     var flashcards = [Flashcard]()
@@ -59,7 +60,15 @@ class ViewController: UIViewController {
     }
     
     @IBAction func didTapOnFlashcard(_ sender: Any) {
+        flipFlashcard()
+    }
+    
+    func flipFlashcard()
+    {
+        //move all code from didTapOnFlashcard to here
         frontLabel.isHidden=true;
+        
+        UIView.transition(with: card, duration: 0.3, options: .transitionFlipFromRight, animations: { self.frontLabel.isHidden = true})
     }
     
     @IBAction func didTapOnPrev(_ sender: Any) {
@@ -82,6 +91,9 @@ class ViewController: UIViewController {
         
         //update buttons
         updateNextPrevButtons()
+        
+        //animate
+        animateCardOut()
     }
     
     
@@ -174,6 +186,25 @@ class ViewController: UIViewController {
             //put these flashcards in our flashcards array
             flashcards.append(contentsOf: savedCards)
         }
+    }
+    
+    func animateCardOut()
+    {
+        UIView.animate(withDuration: 0.3, animations: { self.card.transform = CGAffineTransform.identity.translatedBy(x: -300.0, y: 0.0)}, completion: { finished in
+            
+            //update labels
+            self.updateLabels()
+            
+            //run in animation
+            self.animateCardIn()})
+    }
+    
+    func animateCardIn()
+    {
+        //start on right side
+        card.transform = CGAffineTransform.identity.translatedBy(x: 300.0, y: 0.0)
+        
+        UIView.animate(withDuration: 0.3, animations: { self.card.transform = CGAffineTransform.identity})
     }
 }
 
